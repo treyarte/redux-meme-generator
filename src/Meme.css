@@ -1,0 +1,46 @@
+.meme {
+  position: relative;
+  width: 30%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+  margin: 1rem;
+}
+
+.meme-img {
+  width: 100%;
+  height: auto;
+  border-radius: 3%;
+}
+
+.top-text {
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.bottom-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.remove-btn {
+  height: 15%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #ea5455;
+  color: #ebebeb;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 0.3rem 0.5rem 0.9rem 0.1rem #050505;
+}
+
+.remove-btn:hover {
+  box-shadow: 0.3rem 0.5rem 0.8rem 0.2rem #050505;
+  cursor: pointer;
+  background-color: #ff4b5c;
+}

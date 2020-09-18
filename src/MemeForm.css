@@ -1,0 +1,37 @@
+.meme-form {
+  background-color: #6f4a8e;
+  display: flex;
+  flex-flow: column wrap;
+
+  align-content: center;
+}
+
+.input-group {
+  margin: 1rem;
+}
+
+label {
+  margin-right: 1rem;
+}
+
+input {
+  border: none;
+  border-radius: 3%;
+}
+
+.meme-btn {
+  height: 15%;
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #221f3b;
+  color: #ebebeb;
+  border-radius: 5%;
+  border: none;
+  box-shadow: 0.3rem 0.5rem 0.9rem 0.1rem #050505;
+}
+
+.meme-btn:hover {
+  box-shadow: 0.3rem 0.5rem 0.8rem 0.2rem #050505;
+  cursor: pointer;
+  background-color: #292547;
+}

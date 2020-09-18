@@ -1,0 +1,15 @@
+.meme-generator {
+  color: #050505;
+}
+
+.meme-generator header {
+  padding: 1rem;
+  background-color: #6f4a8e;
+}
+
+.meme-container {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
